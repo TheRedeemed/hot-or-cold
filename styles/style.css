@@ -323,9 +323,14 @@ ul.guessBox li {
 }
 
 .cold{
-	background-color: blue;
+	background-color: #394264;
 }
 
 .hot{
-	background-color: yellow;	
+	background-color: #cc324b;	
+}
+
+#nonDigit{
+	color: #1F253D;
+	font-weight: bold;
 }

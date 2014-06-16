@@ -102,7 +102,7 @@ $(document).ready(function(){
 				//alert(input + ' is not a number\nPlease enter a valid number');
 				//$('#feedback').text("");
 				//$('#feedback').append(input + ' is not a valid number <br> Please enter a valid number');
-				feedBackMsg = input + ' is not a valid number <br> Please enter a valid number';
+				feedBackMsg = '<span id="nonDigit">'+input + '</span> is not a valid number <br> Please enter a valid number';
 				feedBackUpdate(feedBackMsg);
 				$('#userGuess').val("");
 				$('#userGuess').empty();
